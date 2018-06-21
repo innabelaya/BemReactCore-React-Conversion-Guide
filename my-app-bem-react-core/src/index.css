@@ -13,7 +13,7 @@ body {
   margin-bottom: 10px;
 }
 
-.square {
+.Square {
   background: #fff;
   border: 1px solid #999;
   float: left;
@@ -28,7 +28,7 @@ body {
   width: 34px;
 }
 
-.game {
+.Game {
   display: flex;
   flex-direction: row;
 }

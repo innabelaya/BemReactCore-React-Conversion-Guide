@@ -2,7 +2,7 @@ import * as React from 'react';
 
 interface ISquareProps {
     onClick: () => void;
-    value: string;
+    value: string|null;
 }
 
 function Square(props: ISquareProps) {
@@ -14,3 +14,5 @@ function Square(props: ISquareProps) {
 }
 
 export default Square;
+
+
